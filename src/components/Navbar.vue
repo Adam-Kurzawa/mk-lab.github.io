@@ -2,6 +2,7 @@
 import { ref, watch } from 'vue';
 import { RouterLink, useRoute, useRouter } from 'vue-router';
 import Submenu from './Submenu.vue';
+import Logo from './Logo.vue';
 import { computed } from 'vue';
 import { useLocale, useTranslation } from '@/utils/hooks';
 
@@ -13,9 +14,6 @@ const locale = useLocale()
 const otherLanguage = ref(locale.value === 'pl' ? 'ENG' : 'PL')
 const otherLanguageFlag = ref()
 
-const scrollThreshold = 100
-const isScrolled = ref(false)
-
 watch(otherLanguage, async (newLanguage, oldLanguage) => {
   import(`@/assets/${newLanguage}.png`)
     .then(module => otherLanguageFlag.value = module.default)
@@ -23,12 +21,6 @@ watch(otherLanguage, async (newLanguage, oldLanguage) => {
 
 import(`@/assets/${otherLanguage.value}.png`)
     .then(module => otherLanguageFlag.value = module.default)
-
-const makeBackgroundSolid = (event) => {
-  isScrolled.value = window.scrollY > scrollThreshold
-}
-
-window.addEventListener('scroll', makeBackgroundSolid)
 
 const changeLanguage = () => {
   if(locale.value === 'pl') {
@@ -53,49 +45,39 @@ const localizedLink = (view) => computed(() => {
 </script>
 
 <template>
-  <nav class="navbar" :class="[isScrolled ? 'navbar-solid' : 'navbar-gradient']">
+  <nav class="navbar">
     <span class="navbar-full">
-      <RouterLink to="/" class="logo">MK-LAB</RouterLink>
+      <Logo />
       <span class="navbar-section">
         <RouterLink :to="localizedLink('cennik')" class="navlink">{{ t("navbar.cennik") }}</RouterLink>
         <RouterLink :to="localizedLink('pakiety')" class="navlink">{{ t("navbar.pakiety") }}</RouterLink>
-        <a href="#" class="language-changer" @click="changeLanguage"><img class="language-flag" :src="otherLanguageFlag"/>{{ otherLanguage }}</a>
+        <a href="#" class="language-changer" @click="changeLanguage"><img class="language-flag" :src="otherLanguageFlag"/><span>{{ otherLanguage }}</span></a>
       </span>
     </span>
     <span class="navbar-medium">
-      <RouterLink to="/" class="logo">MK-LAB</RouterLink>
+      <Logo />
       <span class="navbar-section">
         <RouterLink :to="localizedLink('cennik')" class="navlink">{{ t("navbar.cennik") }}</RouterLink>
         <RouterLink :to="localizedLink('pakiety')" class="navlink">{{ t("navbar.pakiety") }}</RouterLink>
-        <a href="#" class="language-changer" @click="changeLanguage"><img class="language-flag" :src="otherLanguageFlag"/>{{ otherLanguage }}</a>
+        <a href="#" class="language-changer" @click="changeLanguage"><img class="language-flag" :src="otherLanguageFlag"/><span>{{ otherLanguage }}</span></a>
       </span>
     </span>
     <span class="navbar-minimal">
-      <RouterLink to="/" class="logo">MK-LAB</RouterLink>
+      <Logo />
       <span class="navbar-section">
         <Submenu id="menu-overflow-minimal" right="true">
           <li class="collapsed-link"><RouterLink :to="localizedLink('cennik')" class="navlink">{{ t("navbar.cennik") }}</RouterLink></li>
           <li class="collapsed-link"><RouterLink :to="localizedLink('pakiety')" class="navlink">{{ t("navbar.pakiety") }}</RouterLink></li>
         </Submenu>
-        <a href="#" class="language-changer" @click="changeLanguage"><img class="language-flag" :src="otherLanguageFlag"/>{{ otherLanguage }}</a>
+        <a href="#" class="language-changer" @click="changeLanguage"><img class="language-flag" :src="otherLanguageFlag"/><span>{{ otherLanguage }}</span></a>
       </span>
     </span>
   </nav>
 </template>
 
 <style scoped>
-/* Navbar background and gradient related stuff */
-.navbar-gradient {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%);
-}
-
-.navbar-solid {
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(10px);
-}
-
 .navbar {
-  transition: background 1s ease;
+  background-color: white;
   position: fixed;
   top: 0;
   width: 100%;
@@ -111,35 +93,26 @@ const localizedLink = (view) => computed(() => {
   margin-bottom: 0.35rem;
 }
 
-.logo {
-  color: white;
-  text-decoration: none;
-  font-family: 'Yeseva One' !important;
-  font-weight: 300 !important;
-  font-style: normal !important;
-  font-size: 2rem;
-  margin-top: 0.25rem;
-}
-
 .collapsed-link {
   margin-top: 1rem;
 }
 
 .language-changer {
-  border: 1px solid #e69b54;
-  border-radius: 0.5rem;
-  background-color: rgb(30, 54, 54);
-  color: white;
+  color: #5463a9;
   text-decoration: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: lighter;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-right: 1rem;
   padding-left: 1rem;
   display: flex;
-  margin-top: 0.25rem;
+  margin-top: 0.35rem;
   gap: 0.5rem;
+}
+
+.language-changer > span {
+  margin-top: 0.25rem;
 }
 
 .language-flag {
@@ -151,9 +124,12 @@ const localizedLink = (view) => computed(() => {
 .navbar-full {
   display: grid;
   grid-template-columns: 50% 50%;
-  justify-items: center;
   padding-left: 15%;
   padding-right: 15%;
+}
+
+.navbar-full > .navbar-section {
+  justify-content: right;
 }
 
 .navbar-medium {

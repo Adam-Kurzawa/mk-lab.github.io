@@ -1,15 +1,16 @@
 @import "./base.css";
 
 body {
-  background-color: blue;
+  background-color: white;
   margin: 0 !important;
 }
 
 .navlink {
-  color: white;
+  color: #5463a9;
   text-decoration: none;
+  font-size: 1rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: lighter;
+  font-weight: bold;
   margin-top: 0.75rem;
 }
 
