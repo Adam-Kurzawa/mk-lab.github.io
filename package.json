@@ -1,0 +1,30 @@
+{
+  "name": "mk-lab",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "errorpage": "cd ./dist && del 404.html && del temp && copyfiles index.html ./temp && cd ./temp && renamer index.html --replace 404.html && copyfiles 404.html .. && cd .. && del temp && cd ..",
+    "addcname": "copyfiles CNAME ./dist",
+    "build": "vite build && npm run errorpage && npm run addcname",
+    "preview": "npm run build && vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@intlify/unplugin-vue-i18n": "^4.0.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "vue-i18n": "^9.10.2",
+    "vue-gtag": "^2.0.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.8",
+    "copyfiles": "^2.4.1",
+    "del-cli": "^5.1.0",
+    "gh-pages": "^6.1.1",
+    "renamer": "^5.0.0"
+  }
+}
