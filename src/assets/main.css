@@ -1,35 +1,30 @@
-@import './base.css';
+@import "./base.css";
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+body {
+  background-color: blue;
+  margin: 0 !important;
 }
 
-a,
-.green {
+.navlink {
+  color: white;
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  margin-top: 0.75rem;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+.font-segoe {
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+.font-josefin {
+  font-family: "Josefin Sans", sans-serif;
+}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+.font-yeseva {
+  font-family: 'Yeseva One';
+}
+
+.font-madimi {
+  font-family: "Madimi One";
 }
