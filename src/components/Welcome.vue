@@ -2,16 +2,21 @@
 import { useTranslation } from "@/utils/hooks";
 import Panel from "./Panel.vue";
 
-const  t = useTranslation()
+const t = useTranslation();
 </script>
 
 <template>
   <Panel class="font-segoe container">
     <div class="left">
-      <div class="left-h1 font-josefin">Punkt poboru krwi</div>
-      <div class="left-h2 font-josefin">mgr Majka Kurzawa</div>
-      <div class="left-description font-segoe">Blah blah blah</div>
-      <div class="left-map">Mapka</div>
+      <h1>Punkt poboru krwi</h1>
+      <h2>mgr Majka Kurzawa</h2>
+      <div class="left-description font-segoe">
+        Zapraszamy do naszego punktu przy ulicy Kościuszki 61 w Lutyni.
+        Oferujemy szeroki zakres badań diagnostycznych dopasowanych do Twoich
+        potrzeb. Dzięki atrakcyjnym cenom dbanie o zdrowie staje się bardziej
+        dostępne. Zachęcamy do wypróbowania pakietów badań.
+      </div>
+      <img class="left-map" src="@/assets/maps.jpg" />
       <button class="left-button font-segoe">Sprawdź wyniki on-line</button>
     </div>
     <img class="right" src="@/assets/blood.png" />
@@ -33,31 +38,14 @@ const  t = useTranslation()
   width: 100%;
 }
 
-.left-h1 {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 2.5rem;
-  color: #5463a9;
-  margin-bottom: 1rem;
-}
-
-.left-h2 {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: black;
-  margin-bottom: 2rem;
-}
-
 .left-description {
   margin-bottom: 2rem;
 }
 
 .left-map {
   margin-bottom: 2rem;
-  background-color: black;
-  color: white;
-  padding: 2rem;
+  width: 100%;
+  border-radius: 2rem;
 }
 
 .left-button {
@@ -77,6 +65,7 @@ const  t = useTranslation()
 @media screen and (max-width: 1024px) {
   .container {
     display: flex;
+    flex-direction: column;
   }
 }
 </style>

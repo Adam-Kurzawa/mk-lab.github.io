@@ -29,3 +29,21 @@ body {
 .font-madimi {
   font-family: "Madimi One";
 }
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #5463a9;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 2rem;
+}

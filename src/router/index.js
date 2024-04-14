@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import BundlesView from '../views/BundlesView.vue'
+import PricingView from '../views/PricingView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,12 +14,12 @@ const router = createRouter({
     {
       path: '/:lang/cennik',
       name: 'cennik',
-      component: HomeView
+      component: PricingView
     },
     {
       path: '/:lang/pakiety',
       name: 'pakiety',
-      component: HomeView
+      component: BundlesView
     }
   ]
 })
