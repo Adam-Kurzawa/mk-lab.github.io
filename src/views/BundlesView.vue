@@ -1,12 +1,10 @@
 <script setup>
-import Banner from "@/components/Banner.vue";
 import Welcome from "@/components/Welcome.vue";
 </script>
 
 <template>
   <main>
-    <Banner class="banner" />
-    <Welcome />
+    TODO
   </main>
 </template>
 
