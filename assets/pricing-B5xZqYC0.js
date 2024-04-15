@@ -1,0 +1,1 @@
+const o={"badania-ogólne":{toksykologia:4.99,TSH:4.99,morfologia:{price:9.99,desc:["morfologia","krzepliwość","hematocyty"]}},"badania-specjalistyczne":{morfologia:4.99,toksykologia:{price:9.99,desc:["morfologia","krzepliwość","hematocyty"]}}};export{o as default};
