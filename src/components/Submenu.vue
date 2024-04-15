@@ -66,8 +66,8 @@ input:checked~.menu-content {
   max-height: fit-content;
   height: fit-content;
   z-index: 1;
-  background-color: rgb(30, 54, 54);
-  border: 1px #e69b54 solid;
+  background-color: white;
+  border: 1px #5463a9 solid;
   border-radius: 0.5rem;
 }
 
