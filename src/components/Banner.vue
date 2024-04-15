@@ -2,12 +2,12 @@
 import { useTranslation } from "@/utils/hooks";
 import Panel from "./Panel.vue";
 
-const  t = useTranslation()
+const t = useTranslation()
 </script>
 
 <template>
   <Panel class="font-segoe container">
-    Już wkrótce otwarcie!
+    {{ t('banner') }}
   </Panel>
 </template>
 

@@ -20,6 +20,6 @@ const specificPricing = computed(() => pricing.value['badania-specjalistyczne'])
 
 <style scoped>
 .container {
-  width: 100%;
+  width: -webkit-fill-available;
 }
 </style>

@@ -11,7 +11,6 @@
   color: black;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   gap: 1rem;
 }
 
@@ -22,6 +21,7 @@
   font-weight: bold !important;
   font-style: normal !important;
   font-size: 2.25rem;
+  text-wrap: nowrap;
 }
 
 .logo-img {

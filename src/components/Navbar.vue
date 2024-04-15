@@ -82,7 +82,7 @@ const localizedLink = (view) => computed(() => {
   top: 0;
   width: 100%;
   padding-top: 1.5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 .navbar-section {
@@ -177,9 +177,8 @@ const localizedLink = (view) => computed(() => {
   .navbar-minimal {
     display: grid;
     grid-template-columns: 60% 40%;
-    align-items: end;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .navbar-section {
@@ -190,7 +189,7 @@ const localizedLink = (view) => computed(() => {
 
 @media screen and (max-width: 500px) {
   .navbar-section {
-    gap: 1.5rem;
+    gap: 1rem;
   }
 
   .language-flag {
