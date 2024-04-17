@@ -65,7 +65,7 @@ const localizedLink = (view) => computed(() => {
     <span class="navbar-minimal">
       <Logo />
       <span class="navbar-section">
-        <Submenu id="menu-overflow-minimal" right="true">
+        <Submenu id="menu-overflow-minimal">
           <li class="collapsed-link"><RouterLink :to="localizedLink('cennik')" class="navlink">{{ t("navbar.cennik") }}</RouterLink></li>
           <li class="collapsed-link"><RouterLink :to="localizedLink('pakiety')" class="navlink">{{ t("navbar.pakiety") }}</RouterLink></li>
         </Submenu>
