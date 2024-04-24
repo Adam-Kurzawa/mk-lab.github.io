@@ -1,25 +1,56 @@
 {
-    "badania-ogólne": {
-        "toksykologia": 4.99,
-        "TSH": 4.99,
-        "morfologia": {
-            "price": 9.99,
-            "desc": [
-                "morfologia",
-                "krzepliwość",
-                "hematocyty"
-            ]
+    "badania podstawowe": {
+        "Hematologia": {
+            "Morfologia 5D z rozmazem": 15.00,
+            "Morfologia 5D": 12.00,
+            "OB": 9.00,
+            "Płytki krwi (krew cytrynianowa)": 23.50,
+            "Płytki krwi (krew heparynizowana)": 36.00,
+            "Retikulocyty": 17.00,
+            "Rozmaz mikroskopowy": 16.00
+        },
+        "Biochemia i imunochemia": {
+            "albumina": 11.00,
+            "ALT": 11.00,
+            "Amylaza": 12.00,
+            "amylaza trzystkowa": 69.00,
+            "AST": 11.00,
+            "białko całkowite": 11.00,
+            "bilirubina bezpośrednia": 13.00,
+            "bilirubina całkowita": 11.00,
+            "bilirubina frakcje": 21.00,
+            "bilirubina pośrednia": 17.00,
+            "chlorki": 15.00,
+            "cholesterol całkowity": 12.00,
+            "cholinesteraza": 32.00,
+            "CK": 14.00,
+            "CK-MB aktywność": 30.00,
+            "CK-MB mass": 25.00,
+            "CRP": 18.00,
+            "czynnik reumatoidalny (ilościowo)": 23.00,
+            "dehydrogeneza beta-hydroksymaślanowa": 30.00,
+            "ferrytyna": 36.00,
+            "fosfataza alkaliczna ALP": 9.00,
+            "fosfataza kwaśna ACP": 18.00,
+            "fosfataza kwaśna sterczowa PAP": 50.00,
+            "fosforany": 11.00,
+            "GGT": 11.00,
+            "glukoza": 10.00,
+            "HDL cholesterol": 12.00,
+            "hemoglobina glikowana HbA1c": 31.00,
+            "jonogram": 25.00,
+            "klirens kreatyniny": 12.50,
+            "kreatynina": 12.00,
+            "kwas moczowy": 11.00,
+            "kwasy żółciowe": 67.00,
+            "LDH": 12.00,
+            "LDH izoenzymy": 150.00,
+            "LDL cholesterol (metoda bezpośrednia)": 21.00,
+            "LDL cholesterol (wartość wyliczana)": 10.00,
+            "lipaza": 26.00,
+            "magnez": 10.00
         }
     },
-    "badania-specjalistyczne": {
-        "morfologia": 4.99,
-        "toksykologia": {
-            "price": 9.99,
-            "desc": [
-                "morfologia",
-                "krzepliwość",
-                "hematocyty"
-            ]
-        }
+    "badania specjalistyczne": {
     }
 }

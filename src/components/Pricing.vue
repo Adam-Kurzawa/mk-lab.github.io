@@ -1,8 +1,11 @@
 <script setup>
 import { computed } from 'vue'
-import Panel from "./Panel.vue";
+import Panel from './Panel.vue'
+import { useTranslation } from '@/utils/hooks';
 
 const props = defineProps([ 'pricing' ])
+
+const t = useTranslation()
 
 const singleEntry = (key, value) => {
     return `
@@ -11,32 +14,10 @@ const singleEntry = (key, value) => {
             grid-template-columns: 75% 25%;
         ">
             <span>${key}</span>
-            <span>${value}</span>
-        </div>
-    `
-}
-
-const compositeEntry = (key, value) => {
-    const subEntries = value.desc.map(x => `<li>${x}</li>`).join('')
-
-    return `
-        <div style="
-            display: grid;
-            grid-template-columns: 75% 25%;
-        ">
-            <span>
-                <span>${key}</span>
-                <ul style="
-                    padding-top: 0;
-                    padding-bottom: 0;
-                    padding-right: 0;
-                    font-size: 0.9rem;
-                    margin: 0;
-                ">${subEntries}</ul>
-            </span>
             <span style="
-                align-self: center;
-            ">${value.price}</span>
+                text-align: end;
+                padding-right: 1rem;
+            ">${value.toFixed(2)} ${t('pricing.currency')}</span>
         </div>
     `
 }
@@ -44,11 +25,7 @@ const compositeEntry = (key, value) => {
 const mapEntry = (entry) => {
     const key = entry[0]
     const value = entry[1]
-
-    if(isNaN(value))
-        return compositeEntry(key, value)
-    else
-        return singleEntry(key, value)
+    return singleEntry(key, value)
 }
 
 const entries = computed(() => {
