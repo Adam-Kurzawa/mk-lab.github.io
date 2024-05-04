@@ -2,12 +2,14 @@
 import { useTranslation } from "@/utils/hooks";
 import Panel from "./Panel.vue";
 
+const props = defineProps([ 'msg', 'color' ])
+
 const t = useTranslation()
 </script>
 
 <template>
-  <Panel class="font-segoe container">
-    {{ t('banner') }}
+  <Panel class="font-segoe container" :class="[ props.color ?? 'red' ]">
+    {{ t(props.msg) }}
   </Panel>
 </template>
 
@@ -15,10 +17,16 @@ const t = useTranslation()
 .container {
   border-radius: 2rem;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: bold;
-  letter-spacing: 0.5rem;
   color: white;
+}
+
+.red {
   background-color: #ff4e4e;
+}
+
+.blue {
+  background-color: #5463a9;
 }
 </style>

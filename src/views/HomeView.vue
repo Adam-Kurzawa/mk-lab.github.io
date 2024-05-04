@@ -5,7 +5,8 @@ import Welcome from "@/components/Welcome.vue";
 
 <template>
   <main>
-    <Banner class="banner" />
+    <Banner class="banner" msg="banner" />
+    <Banner class="banner" msg="nfz" />
     <Welcome />
   </main>
 </template>

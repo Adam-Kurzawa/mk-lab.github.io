@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import Pricing from '@/components/Pricing.vue'
 import { useAsset, useTranslation } from '@/utils/hooks'
+import Banner from '@/components/Banner.vue';
 
 const t = useTranslation()
 const pricing = useAsset(import(`@/assets/pricing.json`))
@@ -20,6 +21,7 @@ const subLevelEntry = (entry) => Object.entries(entry)
         <Pricing :pricing="subValues[1]" />
       </span>
     </span>
+    <Banner msg="more" color="blue" />
   </main>
 </template>
 

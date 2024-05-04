@@ -10,7 +10,10 @@ export const messages = {
             "desc": "Zapraszamy do naszego punktu przy ulicy Kościuszki 61 w Lutyni. Oferujemy szeroki zakres badań diagnostycznych dopasowanych do Twoich potrzeb. Dzięki atrakcyjnym cenom dbanie o zdrowie staje się bardziej dostępne. Zachęcamy do wypróbowania pakietów badań.",
             "button": "Sprawdź wyniki on-line"
         },
-        "banner": "Już wkrótce otwarcie!",
+        "banner": "Jesteśmy otwarci od 6 maja!",
+        "nfz": "Obecnie nie świadczymy usług w ramach NFZ.",
+        "more": "O więcej informacji o innych badaniach związanych z hematologią zaawansowaną proszę pytać w gabinecie zabiegowym.",
+        "bundles": "Pakiety badań pojawią się tu wkrótce!",
         "pricing": {
             "currency": "zł",
             "h1": "Cennik"
@@ -27,7 +30,10 @@ export const messages = {
             "desc": "We kindly invite to our facility at 61, Kościuszki Street in Lutynia. We offer a wide range of diagnostic tests tailored to your needs. Thanks to attractive prices, taking care of your health becomes more accessible. We encourage you to try the bundles.",
             "button": "Check your results on-line"
         },
-        "banner": "Opening soon!",
+        "banner": "We are open from 6th May!",
+        "nfz": "We do not offer services as part of NFZ.",
+        "more": "For more information about advanced hemathology, please ask inside the facility.",
+        "bundles": "Bundled diagnostics will appear here soon. We are working on it!",
         "pricing": {
             "currency": "PLN",
             "h1": "Pricing"

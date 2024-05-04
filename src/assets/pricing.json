@@ -205,5 +205,34 @@
             "HELICOBACTER PYLORI ANTYGEN W KALE - METODA AUTOMATYCZNA": 162.00
         }
     },
-    "badania specjalistyczne": {}
+    "badania Zaawansowane": {
+        "hematologia": {
+            "Aktywność heparyny w osoczu (anty-Xa)": 200.00,
+            "alfa 2-antyplasmina": 220.00,
+            "antygen białka C": 500.00,
+            "antygen czynnika von Willebranda": 200.00,
+            "antytrombina III": 68.00,
+            "BIAŁKO C": 90.00,
+            "Białko S": 117.00,
+            "CD57 limofocyty T cytotoksyczne": 220.00,
+            "czynnik krzepnięcia II": 200.00,
+            "CZYNNIK KRZEPNIĘCIA IX":80.00,
+            "CZYNNIK KRZEPNIĘCIA V":78.00,
+            "CZYNNIK XII- MUTACJA GENOWA": 265.00,
+            "EOZYNOFILIA BEZWZGLĘDNA": 25.00,
+            "FOSFATAZA ALKALICZNA GRANULOCYTÓW - FAG": 120.00,
+            "INHIBITOR AKTYWATORA PLAZMINOGENU PAI-1": 200.00,
+            "KARBOKSYHEMOGLOBINA": 50.00,
+            "KOMÓRKI LE": 30.00,
+            "METHEMOGLOBINA": 60.00,
+            "OPORNOŚĆ NA AKTYWOWANE BIAŁKO C (APCR)": 130.00,
+            "OPORNOŚĆ OSMOTYCZNA ERYTROCYTÓW": 30.00,
+            "PLASMINOGEN": 150.00,
+            "TEST EMA- OCENA ZABURZEŃ BŁON ERYTROCYTARNYCH":800.00,
+            "WOLNA HEMOGLOBINA W MOCZU": 70.00,
+            "WOLNA HEMOGLOBINA W OSOCZU": 70.00,
+            "WOLNA HEMOGLOBINA W SUROWICY": 120.00,
+            "WYKRYWANIE WIRUSA LUDZKIEJ BIAŁACZKI T-KOMÓRKOWEJ HTLV MET. PCR": 1400.00
+        }
+    }
 }
