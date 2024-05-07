@@ -3,7 +3,7 @@ import { computed } from 'vue'
 import Panel from './Panel.vue'
 import { useTranslation } from '@/utils/hooks';
 
-const props = defineProps([ 'pricing' ])
+const props = defineProps([ 'title', 'pricing', 'filter' ])
 
 const t = useTranslation()
 
@@ -29,21 +29,28 @@ const mapEntry = (entry) => {
 }
 
 const entries = computed(() => {
-    return Object.entries(props.pricing)
-        .map(mapEntry)
+    if(props.filter && props.filter.length !== 0) {
+        const phrase = props.filter.toUpperCase()
+        return Object.entries(props.pricing)
+            .filter(entry => entry[0].toUpperCase().includes(phrase))
+            .map(mapEntry)
+    } else
+        return Object.entries(props.pricing)
+            .map(mapEntry)
 })
 </script>
 
 <template>
-    <Panel class="container font-segoe">
-        <div v-if="entries" v-for="entry in entries" class="entry">
+    <Panel v-if="entries && entries.length !== 0" class="pricing font-segoe">
+        <h3>{{ props.title }}</h3>
+        <div v-for="entry in entries" class="entry">
             <div v-html="entry" />
         </div>
     </Panel>
 </template>
 
 <style scoped>
-.container {
+.pricing {
     text-transform: uppercase;
     padding-top: 0 !important;
 }
@@ -61,7 +68,7 @@ const entries = computed(() => {
     background-color: lightblue !important;
 }
 
-.container :nth-child(even).entry {
+.pricing :nth-child(even).entry {
     background-color: aqua;
 }
 </style>
