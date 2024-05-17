@@ -1,24 +1,28 @@
 <script setup>
-import Banner from "@/components/Banner.vue";
+import { ref } from 'vue'
+import Bundle from "@/components/Bundle.vue"
+
+const bundles = ref(
+  new Set(
+    Object.keys(import.meta.glob('@/assets/bundles/*.json'))
+      .map(s => s.substring(20).slice(0, -5))
+  )
+)
 </script>
 
 <template>
-  <main class="container">
-    <Banner class="banner" msg="bundles" />
+  <main v-if="bundles" class="bundles-container">
+    <Bundle v-for="bundle in bundles" :name="bundle" />
   </main>
 </template>
 
 <style scoped>
-.container {
+.bundles-container {
   width: -webkit-fill-available;
 }
 
-.banner {
-  margin-bottom: 2rem;
-}
-
 @media screen and (max-width: 1024px) {
-  .banner {
+  .bundles-container {
     margin-top: 2rem;
   }
 }

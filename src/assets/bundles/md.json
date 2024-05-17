@@ -1,0 +1,23 @@
+{
+    "name": "Pakiet na Dzień Matki",
+    "active": {
+        "from": "20.05.2024",
+        "to": "31.05.2024"
+    },
+    "description": "Badania w pakiecie są tak dobrane, że pozwolą na ocenę stanu tarczycy, wątroby i nerek, gospodarkę lipidową, węglowodanową oraz mineralną, a także wykrycie niedokrwistości z niedoboru żelaza. Badania wykażą czy w organiźmie pojawia się stan zapalny oraz pokażą jaka ilość witaminy D zatrzymuje się w organiźmie. Pakiet pozwolio na przebadanie ważnych dla kobiet hormonów płciowych. Pakiet na Dzień Mamy jest dedykowany wszystkim mamą/kobietą chcący zadbać o swoje zdrowie w tak szczególny czas.",
+    "listing": [
+        "Morfologia z rozmazem",
+        "CRP",
+        "Glukoza",
+        "Profil lipidowy",
+        "TSH -badanie pomocne przy diagnozie chorob tarczycy i hashimoto",
+        "Badanie ogolne moczu",
+        "FSH - Hormon wytwarzany w przednim płacie przysadki mózgowej. Wartości podwyższone obserwuje się u kobiet z pierwotną niewydolnoscią jajników, a obniżone wystepują w przypadku wtórnej niewydolności jajników z powodu dysfunkcji przysadki stosowania srodkow hamujacych owulacje stosowania sterydow plciowych.",
+        "Progesteron - Reguluje funkcje układu rozrodczego podczas cyklu miesięcznego. Wartosci podwyższone wystepują w przypadku guzów jajników zasniadu groniastego zespołu nadneroczowo-płciowego, a obniżone przy zaburzeniach owulacji i nieprawidłowym działaniu jajników.",
+        "Kreatynina",
+        "Żelazo",
+        "Fosforany"
+    ],
+    "saving": 56.00,
+    "price": 230.00
+}
