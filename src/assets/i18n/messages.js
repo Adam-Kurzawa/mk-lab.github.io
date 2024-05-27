@@ -10,7 +10,7 @@ export const messages = {
             "desc": "Zapraszamy do naszego punktu przy ulicy Kościuszki 61 w Lutyni. Oferujemy szeroki zakres badań diagnostycznych dopasowanych do Twoich potrzeb. Dzięki atrakcyjnym cenom dbanie o zdrowie staje się bardziej dostępne. Zachęcamy do wypróbowania pakietów badań.",
             "button": "Sprawdź wyniki on-line"
         },
-        "banner": "Już otwarte! Zapraszamy!",
+        "banner": "Wykonujemy usługi zakładania lub zmiany opatrunków oraz zdejmowania szwów z drobnych ran po okazaniu skierowania.",
         "nfz": "Obecnie nie świadczymy usług w ramach NFZ.",
         "more": "O więcej informacji o innych badaniach związanych z hematologią zaawansowaną proszę pytać w gabinecie zabiegowym.",
         "bundles": "Pakiety badań pojawią się tu wkrótce!",
