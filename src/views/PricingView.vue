@@ -20,7 +20,6 @@ const subLevelEntry = (entry) => Object.entries(entry)
       <h2>{{ values[0] }}</h2>
       <Pricing v-for="subValues in subLevelEntry(values[1])" :title="subValues[0]" :pricing="subValues[1]" :filter="searchPhrase" />
     </span>
-    <Banner msg="more" color="blue" />
   </main>
 </template>
 
