@@ -18,6 +18,7 @@ const subLevelEntry = (entry) => Object.entries(entry)
     <h1>{{ t('pricing.h1') }}</h1>
     <div class="font-josefin simple-text">Badanie na cito płatne dodatkowo 2 zł.</div>
     <div class="font-josefin simple-text">Usługa szczepień osób dorosłych płatna 20 zł.</div>
+    <div class="font-josefin simple-text">Iniekcje domięśniowe osób dorosłych płatne 20 zł.</div>
     <span v-if="pricing" v-for="values in pricingKeyValues">
       <h2>{{ values[0] }}</h2>
       <Pricing v-for="subValues in subLevelEntry(values[1])" :title="subValues[0]" :pricing="subValues[1]" :filter="searchPhrase" />
