@@ -28,3 +28,4 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+src/assets/old_bundles/md copy 2.json

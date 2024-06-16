@@ -1,0 +1,21 @@
+{
+    "name": "Podstawowy pakiet hormonalny dla kobiet",
+    "active": {
+        "allYear": true,
+        "from": null,
+        "to": null
+    },
+    "description": "Układ hormonalny odpowiada za produkcje wszystkich hormonów. Profilaktyczne badania poziomu hormonów sprzyjają wczesnemu wykryciu wszystkich nieprawidłowości. Pakiet hormonalny podstawowy zawiera badania:",
+    "waitingTime": null,
+    "listing": [
+        "estradiol (Odgrywa istotną rolę w utrzymaniu prawidłowej struktury kości i fizjologi skóry oraz włosów. Pomiar poziomu estradiolu wykorzystywany jest do oceny funkcji jajników i monitorowania rozwoju pęcherzyków folikularnych. Wskazaniem do oznaczenia są: zaburzenia cyklu miesiączkowego, zaburzenia okresu pokwitania, kontrola owulacji indukowanej lekami.)",
+        "FSH (Reguluje wytwarzanie estogenów. Jego zaburzenia znajdują odzwierciedlenie w stanach takich niepokoju, depresji, zatrzymania wody w organizmie, nadwagi czy zaburzeń miesiączkowania.)",
+        "LH (Wykazuje właściwości stymulujące jajniki do wytwarzania hormonów, głównie stradiolu, i podlega sprzężeniu zwrotnym w okresie menopauzalnym wraz z zanikiem funkcji jajników, stężenie LH wzrasta. Oznaczenie LH, wraz z innymi hormonami płciowymi, wykorzystywane jest w diagnostyce niepłodności i zaburzeń miesiączkowania.)",
+        "progesteron (Wspólnie z estogenami reguluje funkcje układu rozrodczego podczas cyklu miesiączkowego.)",
+        "prolaktyna (Przy podwyższonym stęzeniu prolaktyna wywołuje laktację, utratę miesiączki, bezpłodność.)"
+    ],
+    "saving": null,
+    "price": 140.00
+}
+
+   

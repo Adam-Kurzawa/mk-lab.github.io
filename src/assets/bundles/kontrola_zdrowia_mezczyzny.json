@@ -1,0 +1,32 @@
+{
+    "name": "Pakiet kontrola stanu zdrowia mężczyzny",
+    "active": {
+        "allYear": true,
+        "from": null,
+        "to": null
+    },
+    "description": "Pakiet badań laboratoryjnych, które pozwalają na wczesne wykrycie chorób najczęściej spotykanych u mężczyzn lub zmniejszenie ryzyka ich wystąpienia. Badania zawarte w tym pakiecie pozwolą na ocenę ogólnego stanu zdrowia mężczyzny oraz funkcjonowania najważniejszych układów (m.in. pokarmowego i wydalniczego) oraz narządów (m.in. nerek, wątroby, tarczycy). Dzięki uzyskanym wynikom lekarz będzie mógł podjąć optymalne dalsze działania, zarówno w zakresie ewentualnej pogłębionej diagnostyki, jak i wdrożenia odpowiedniego postępowania terapeutycznego. Pakiet skierowany jest do wszystkich dorosłych mężczyzn, którzy chcą zadbać o swoje zdrowie. Badania w celach profilaktycznych zaleca się wykonywać przynajmniej raz do roku, niezależnie od tego, czy na daną chwilę występują objawy chorobowe. Regularne przeprowadzenie tego typu badań jest szczególnie ważne w przypadku osób, które znajdują się w różnych grupach ryzyka lub też przez dłuższy czas obserwują u siebie niepokojące objawy. Najczętrzymi czynnikami zwiększającymi ryzyko rozwoju chorób przewlekłych są m.in.: siedzący tryb życia, nieprawidłowa dieta, otyłość, nadużywanie alkoholu, palenie papierosłów lub innych wyrobów tytoniowych. Jeśli pacjent odczuwa przewlekle jeden lub kilka z wymienionych objawów (szybkie męczenie się, duszność oraz ból w klatce piersiowej nasilające się po wysiłku, uczucie ciężkości w prawym podżebrzu, ogólne pogorszenie nastroju, obrzęk oraz ból stawów, niezamierzone zmiany masy ciała, nadmierne pragnienie, częstsze oddawanie moczu), powinien jak najszybciej wykonać kontrolne badnia przedstawione w pakiecie oraz udać się do lekarza. W ramach pakietu wykonywane są badania takie jak:",
+    "waitingTime": null,
+    "listing": [
+        "morfologia z rozmazem",
+        "badanie ogólne moczu",
+        "PSA",
+        "ALT",
+        "AST",
+        "witamina D3",
+        "GGTP",
+        "TSH",
+        "kreatynina",
+        "magnez",
+        "wapń",
+        "triglicerydy ",
+        "fosforany",
+        "kwas moczowy",
+        "cholesterol całkowity",
+        "cholesterol LDL",
+        "cholesterol HDL",
+        "glukoza"
+    ],
+    "saving": null,
+    "price": 290.00
+}

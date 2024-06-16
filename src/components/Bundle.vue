@@ -8,9 +8,28 @@ const bundle = ref()
 
 const activeDates = computed(() => {
     const b = bundle.value
-    const activeFrom = b.active.from
-    const activeTo = b.active.to
-    return `${activeFrom} - ${activeTo}`
+
+    if(b.active.allYear) {
+        return `Ważny przez cały rok`
+    } else {
+        const activeFrom = b.active.from
+        const activeTo = b.active.to
+  
+        return `Ważny w dniach ${activeFrom} - ${activeTo}`
+    }
+})
+
+const saving = computed(() => {
+    const b = bundle.value
+    const save = b.saving
+    const wait = b.waitingTime
+
+    if(save)
+        return `Korzystając z pakietu oszczędzasz ${save} zł`
+    else if(wait)
+        return `Wyniki w ciągu ${wait}`
+    else 
+        return ""
 })
 
 import(`@/assets/bundles/${props.name}.jpg`)
@@ -26,13 +45,13 @@ import(`@/assets/bundles/${props.name}.json`)
         <img v-if="image" :src="image" class="img" />
     </div>
     <div v-if="bundle" class="texts">
-        <div class="active font-josefin">Ważny w dniach {{ activeDates }}</div>
+        <div class="active font-josefin"> {{ activeDates }}</div>
         <div class="name font-josefin">{{ bundle.name }}</div>
         <div class="desc font-josefin">{{ bundle.description }}</div>
         <ul class="listing font-josefin">
             <li v-for="el in bundle.listing">{{ el }}</li>
         </ul>
-        <div class="saving font-josefin">Korzystając z pakietu oszczędzasz {{ bundle.saving }} zł</div>
+        <div class="saving font-josefin">{{ save }}</div>
         <div class="price font-josefin">{{ bundle.price }} zł</div>
     </div>
   </div>
@@ -41,23 +60,27 @@ import(`@/assets/bundles/${props.name}.json`)
 <style scoped>
 .bundle {
     padding-left: 1rem;
+    margin-bottom: 1rem;
     transition: background ease 0.5s;
-    border-radius: 2rem;
+    border-radius: 1rem;
+    border: 1px solid #5463a9;
     display: grid;
     grid-template-columns: 40% 60%;
 }
 
 .zoom {
     align-self: center;
-    border-radius: 2rem;
+    border-radius: 1rem;
     padding: 0;
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
     overflow: hidden;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .img {
     transition: transform .5s ease;
-    border-radius: 2rem;
     width: 100%;
 }
 

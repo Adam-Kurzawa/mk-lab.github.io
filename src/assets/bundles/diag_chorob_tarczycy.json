@@ -1,0 +1,21 @@
+{
+    "name": "Pakiet diagnostyka chorób tarczycy",
+    "active": {
+        "allYear": true,
+        "from": null,
+        "to": null
+    },
+    "description": "Pakiet ma na celu wykrycie zaburzeń funkcji tarczycy. Obejmuje badania pozwalające diagnozować m.in: nadczynność, niedoczynność, choroby z autoagresji (Hashimoto, Graves-Basedowa) i inne. Wspiera procesy kontroli schorzenia i dobierania odpowiednich leków. W ramach pakietu wykonywane są badania takie jak:",
+    "waitingTime": "2 dni",
+    "listing": [
+        "TSH - hormon tyreotropowy",
+        "TT4 - całkowita tyroksyna",
+        "FT4 - wolna tyroksyna",
+        "TT3 - całkowita trijodotyronina",
+        "FT3 - wolna trijodotyronina",
+        "ATPO - przeciwciała przeciwko peroksydazie tarczycowej",
+        "ATG - przeciwciała przeciw tyreoglobulinie TG"
+    ],
+    "saving": null,
+    "price": 210.00
+}

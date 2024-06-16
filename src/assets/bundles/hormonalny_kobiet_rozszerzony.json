@@ -1,0 +1,22 @@
+{
+    "name": "Rozszerzony pakiet hormonalny dla kobiet",
+    "active": {
+        "allYear": true,
+        "from": null,
+        "to": null
+    },
+    "description": "Zestaw badań rekomendowanych w diagnostyce zaburzeń hormonalnych u kobiet obejmuje diagnostykę w kierunku zaburzeń funkcji tarczycy, cyklu miesiączkowego, płodności, wypadania włosów, nadmiernego przyrostu owłosienia typu męskiego, trądziku oraz menopauzy. PACJENTKA POWINNA PRZYJŚĆ NA BADANIE NA CZCZO W GODZINNACH PORANNYCH! Pakiet obejmuje m.in:",
+    "waitingTime": null,
+    "listing": [
+        "DHEAS",
+        "estradiol",
+        "FSH",
+        "LH",
+        "progesteron",
+        "testosteron",
+        "hormon anty-mullerian (AMH)",
+        "prolaktyna"
+    ],
+    "saving": null,
+    "price": 410.00
+}
