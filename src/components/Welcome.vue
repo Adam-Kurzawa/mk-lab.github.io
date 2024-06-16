@@ -32,7 +32,7 @@ const t = useTranslation();
   padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   border: 1px solid #5463a9;
   color: #5463a9;
 }
@@ -46,7 +46,7 @@ const t = useTranslation();
 .info {
   display: grid;
   grid-template-columns: 50% 50%;
-  gap: 2rem;
+  gap: 1rem;
   padding-right: 2rem;
 }
 
@@ -79,7 +79,7 @@ const t = useTranslation();
   padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   border: none;
   background-color: #ff4e4e;
 }

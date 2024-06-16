@@ -13,7 +13,7 @@ import Welcome from "@/components/Welcome.vue";
 
 <style scoped>
 .banner {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 1024px) {
