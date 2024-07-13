@@ -33,7 +33,7 @@ const deselectOnLeave = () => {
   position: absolute;
   padding-left: 1rem;
   padding-right: 1rem;
-
+  right: 1rem;
   max-height: 0;
   overflow: hidden;
 }

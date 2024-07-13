@@ -1,0 +1,27 @@
+{
+    "name": "Pakiet kobieta 40+",
+    "active": {
+        "allYear": true,
+        "from": null,
+        "to": null
+    },
+    "description": "Pakiet czterdziestolatki to zestaw badań, które umożliwiają ocenę stanu zdrowia kobiet w wieku 40 lat i starszych. Regularna profilaktyka jest kluczowa, ponieważ pozwala wykryć wiele chorób na wczesnym etapie. U kobiet w tym wieku szczególnie ważne jest monitorowanie zdrowia pod kątem raka piersi, szyjki macicy, jajnika, chorób sercowo-naczyniowych, tarczycy oraz osteoporozy. Dzięki badaniom można szybko zareagować i zahamować rozwój choroby już w jej początkowym stadium. Regularne kontrolowanie stanu zdrowia po 40. roku życia jest niezbędne, aby zapewnić prawidłowe funkcjonowanie organizmu i w razie potrzeby natychmiast podjąć odpowiednie działania.",
+    "waitingTime": null,
+    "listing": [
+        "morfologia",
+        "kratynina",
+        "badanie ogólne moczu",
+        "glukoza",
+        "cholesterol całkowity",
+        "cholesterol HDL",
+        "cholesterol LDL",
+        "triglicerydy",
+        "kwas moczowy",
+        "magnez",
+        "fibrynogen",
+        "FSH",
+        "TSH"
+    ],
+    "saving": null,
+    "price": 190.00
+}

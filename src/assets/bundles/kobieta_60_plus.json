@@ -1,0 +1,30 @@
+{
+    "name": "Pakiet kobieta 60+",
+    "active": {
+        "allYear": true,
+        "from": null,
+        "to": null
+    },
+    "description": "Pakiet 60-latki jest dedykowany seniorom, którzy chcą kompleksowo sprawdzić stan swojego zdrowia. Wraz z naturalnym procesem starzenia się organizmu, pogarsza się funkcjonowanie wielu narządów (w tym zmysłów, wzroku, słuchu) oraz spowalnia proces ich regeneracji. Szereg przewlekłych schorzeń może występować jednocześnie. Charakterystyczne dla tego wieku są choroby reumatyczne oraz układu ruchu, których objawy są wyjątkowo uciążliwe. Siódma dekada życia to także okres, kiedy długotrwałe zaniedbania dietetyczne, stosowanie używek czy zbyt mała ilość ruchu ujawniają się w postaci cukrzycy, nadciśnienia tętniczego i innych schorzeń. Prowadzi to do wzrostu ryzyka wystąpienia demencji, udarów czy zawałów serca, spowodowanych uszkodzeniem ścian naczyń krwionośnych. Aby jak najdłużej cieszyć się pełnią sprawności, konieczne jest częste wykonywanie badań przesiewowych pod kątem najczęściej dotykających seniorów schorzeń. Każda osoba po 60. roku życia powinna regularnie kontrolować stan zdrowia, wykonując co najmniej raz w roku badania krwi oraz badanie ogólne moczu. Szczególną czujność, wyrażoną poprzez częstsze kontrolowanie stanu zdrowia, powinny wykazywać osoby znajdujące się w grupie ryzyka rozwoju chorób sercowo-naczyniowych: z cukrzycą, nadciśnieniem tętniczym, otyłością brzuszną, palące papierosy, prowadzące siedzący tryb życia, z zaburzeniami w gospodarce lipidowej (wysoki cholesterol całkowity, LDL) wykrytymi w poprzednich badaniach. Regularne badania pozwalają na wczesne wykrycie i leczenie tych schorzeń, co jest kluczowe dla zachowania zdrowia i sprawności w starszym wieku.",
+    "waitingTime": null,
+    "listing": [
+        "albumina",
+        "ALP",
+        "ALT",
+        "wapń",
+        "glukoza",
+        "kreatynina",
+        "badanie ogólne moczu",
+        "morfologia",
+        "białko całkowite",
+        "triglicerydy",
+        "kwas moczowy",
+        "fosforany",
+        "witamina D3",
+        "cholesterol całkowity",
+        "cholesterol HDL",
+        "cholesterol LDL"
+    ],
+    "saving": null,
+    "price": 237.00
+}

@@ -51,7 +51,6 @@ const localizedLink = (view) => computed(() => {
       <span class="navbar-section">
         <RouterLink :to="localizedLink('cennik')" class="navlink">{{ t("navbar.cennik") }}</RouterLink>
         <RouterLink :to="localizedLink('pakiety')" class="navlink">{{ t("navbar.pakiety") }}</RouterLink>
-        <a href="#" class="language-changer" @click="changeLanguage"><img class="language-flag" :src="otherLanguageFlag"/><span>{{ otherLanguage }}</span></a>
       </span>
     </span>
     <span class="navbar-medium">
@@ -59,7 +58,6 @@ const localizedLink = (view) => computed(() => {
       <span class="navbar-section">
         <RouterLink :to="localizedLink('cennik')" class="navlink">{{ t("navbar.cennik") }}</RouterLink>
         <RouterLink :to="localizedLink('pakiety')" class="navlink">{{ t("navbar.pakiety") }}</RouterLink>
-        <a href="#" class="language-changer" @click="changeLanguage"><img class="language-flag" :src="otherLanguageFlag"/><span>{{ otherLanguage }}</span></a>
       </span>
     </span>
     <span class="navbar-minimal">
@@ -69,7 +67,6 @@ const localizedLink = (view) => computed(() => {
           <li class="collapsed-link"><RouterLink :to="localizedLink('cennik')" class="navlink">{{ t("navbar.cennik") }}</RouterLink></li>
           <li class="collapsed-link"><RouterLink :to="localizedLink('pakiety')" class="navlink">{{ t("navbar.pakiety") }}</RouterLink></li>
         </Submenu>
-        <a href="#" class="language-changer" @click="changeLanguage"><img class="language-flag" :src="otherLanguageFlag"/><span>{{ otherLanguage }}</span></a>
       </span>
     </span>
   </nav>

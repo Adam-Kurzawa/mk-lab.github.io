@@ -1,0 +1,27 @@
+{
+    "name": "Pakiet mężczyzna 40+",
+    "active": {
+        "allYear": true,
+        "from": null,
+        "to": null
+    },
+    "description": "Pakiet 40-latka to zestaw badań laboratoryjnych oferujący szeroki przegląd parametrów wskaujących na poprawne funkcjonowanie całego organizmu. Pacjent otrzymuje kompleksowe wyniki aż 13 badań laboratoryjnych, które stanową podstawę do dalszej diagnostyki lub wdrożenia właściwego leczenia. Mężczyzna w wieku 40 lat powinien regularnie wykonywać badania, szczególnie gdy wystepują czynniki ryzyka m.in.: otyłość, palenie tytoniu, brak aktywności fizycznej, niewłaściwa dieta bogata w cukry i tłuszcze, stres, nadużywanie alkoholu. Badania zawarte w pakiecie mogą okazać się również przydatne w sytuacjach, kiedy występują niepokojące objawy np.: gorsze samopoczucie, trudności z koncentracją, ciągłe zmęczenie, bezsenność, nerwowość, bóle w klatce piersiowej, zwiększone parcie na mocz, trudności w oddawaniu moczu, zaburzenia erekcji i spadek libido, ból w nadbrzuszu po posiłku.",
+    "waitingTime": null,
+    "listing": [
+        "morfologia",
+        "badanie ogólne moczu",
+        "glukoza",
+        "cholesterol całkowity",
+        "cholesterol HDL",
+        "cholesterol LDL",
+        "triglicerydy",
+        "kwas moczowy",
+        "magnez",
+        "PSA całkowity",
+        "TSH",
+        "AST",
+        "ALT"
+    ],
+    "saving": null,
+    "price": 192.00
+}
