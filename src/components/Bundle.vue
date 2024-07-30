@@ -51,7 +51,7 @@ import(`@/assets/bundles/${props.name}.json`)
         <ul class="listing font-josefin">
             <li v-for="el in bundle.listing">{{ el }}</li>
         </ul>
-        <div class="saving font-josefin">{{ save }}</div>
+        <div class="saving font-josefin">{{ saving }}</div>
         <div class="price font-josefin">{{ bundle.price }} zł</div>
     </div>
   </div>

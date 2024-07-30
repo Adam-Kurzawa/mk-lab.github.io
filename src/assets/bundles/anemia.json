@@ -1,0 +1,20 @@
+{
+    "name": "Pakiet anemia",
+    "active": {
+        "allYear": true,
+        "from": null,
+        "to": null
+    },
+    "description": "Pakiet badań obejmuje diagnostykę niedokrwistości.",
+    "waitingTime": null,
+    "listing": [
+        "ferrytyna",
+        "witamina B12",
+        "kwas foliowy",
+        "żelazo",
+        "morfologia z rozmazem",
+        "rozpuszczalny receptor transferyny"
+    ],
+    "saving": null,
+    "price": 240.00
+}
