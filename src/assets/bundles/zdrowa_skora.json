@@ -1,0 +1,24 @@
+{
+    "name": "Pakiet zdrowa skóra, włosy i paznokcie",
+    "active": {
+        "allYear": true,
+        "from": null,
+        "to": null
+    },
+    "description": "Stan naszej skóry, włosów i paznokci odzwierciedla stan zdrowia całego organizmu. Ich gorsza kondycja może być pierwszym objawem przewlekłych chorób alergicznych i autoimmunologicznych, ale nie tylko. Często na wyglądzie skóry negatywnie odbijają się również: przewlekły stres, stosowanie używek, niedożywienie czy nadmiar węglowodanów w diecie. Aby przywrócić piękno i blask skórze czy włosom, warto zajrzeć w głąb swojego organizmu i zrobić badania laboratoryjne. Szczególnie polecam specjalne opracowny w MK-LAB pakiet badań Pakiet zdrowa skóra, włosy i paznokcie.",
+    "waitingTime": null,
+    "listing": [
+        "ESTRADIOL",
+        "witamina H (BIOTYNA)",
+        "TSH",
+        "FSH",
+        "Ferrytyna",
+        "Testosteron",
+        "Cynk",
+        "Witamina B12",
+        "Żelazo",
+        "Selen"
+    ],
+    "saving": null,
+    "price": 630.00
+}

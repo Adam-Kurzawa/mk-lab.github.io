@@ -1,0 +1,27 @@
+{
+    "name": "Pakiet 60-latka",
+    "active": {
+        "allYear": true,
+        "from": null,
+        "to": null
+    },
+    "description": "",
+    "waitingTime": null,
+    "listing": [
+        "morofologia analiza 5 diff",
+        "badanie ogólne moczu",
+        "albumina",
+        "fosfataza alkaliczna ALP",
+        "ALT",
+        "wapń",
+        "kreatynina",
+        "kwas moczowy",
+        "witamina D3",
+        "PSA całkowite",
+        "białko całkowite",
+        "Profil lipidowy",
+        "glukoza"
+    ],
+    "saving": null,
+    "price": 260.00
+}
