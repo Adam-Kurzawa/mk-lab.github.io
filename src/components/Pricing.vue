@@ -69,6 +69,6 @@ const entries = computed(() => {
 }
 
 .pricing :nth-child(even).entry {
-    background-color: aqua;
+    background-color: #f5f7ff;
 }
 </style>

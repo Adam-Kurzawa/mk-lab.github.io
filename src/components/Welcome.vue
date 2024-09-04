@@ -1,31 +1,31 @@
 <script setup>
 import { useTranslation } from "@/utils/hooks";
-import Panel from "./Panel.vue";
+import Slider from "./Slider.vue";
 
 const t = useTranslation();
 </script>
 
 <template>
-  <Panel class="font-segoe container">
+  <div class="font-segoe container">
     <div class="left">
       <h1>{{ t('welcome.h1') }}</h1>
       <h2>{{ t('welcome.h2') }}</h2>
       <div class="info">
-        <span class="hours">Pon. - Pt. 07:00 - 11:00</span>
-        <span class="hours">Telefon 669 516 349</span>
+        <span class="hours">Pon.&nbsp;-&nbsp;Pt. 07:00&nbsp;-&nbsp;11:00</span>
+        <span class="hours">Telefon 669&nbsp;516&nbsp;349</span>
       </div>
       <div class="left-description font-segoe">{{ t('welcome.desc') }}</div>
       <a class="left-button font-segoe" target="_blank" href="https://my.synevo.pl/">{{ t('welcome.button') }}</a>
       <img class="left-map" src="@/assets/maps.jpg" />
     </div>
-    <img class="right" src="@/assets/blood.png" />
-  </Panel>
+    <Slider class="right" />
+  </div>
 </template>
 
 <style scoped>
 .hours {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: bold;
   text-align: center;
   padding-left: 2rem;
@@ -39,8 +39,9 @@ const t = useTranslation();
 
 .container {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 40% 60%;
   gap: 2rem;
+  padding-right: 2rem;
 }
 
 .info {
@@ -81,13 +82,26 @@ const t = useTranslation();
   padding-bottom: 1rem;
   border-radius: 1rem;
   border: none;
-  background-color: #ff4e4e;
+  background-color: #5463a9;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.left-button:hover {
+  background-color: #304291;
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-right: 0;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .container {
-    display: flex;
-    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 </style>

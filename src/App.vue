@@ -15,7 +15,7 @@ import Navbar from './components/Navbar.vue';
 <style scoped>
 .content {
   transition: padding 0.5s ease;
-  margin-top: 10rem;
+  margin-top: 7rem;
   margin-bottom: 5rem;
   padding-left: 20%;
   padding-right: 20%;

@@ -47,8 +47,8 @@ import(`@/assets/bundles/${props.name}.json`)
     <div v-if="bundle" class="texts">
         <div class="active font-josefin"> {{ activeDates }}</div>
         <div class="name font-josefin">{{ bundle.name }}</div>
-        <div class="desc font-josefin">{{ bundle.description }}</div>
-        <ul class="listing font-josefin">
+        <div class="desc font-segoe">{{ bundle.description }}</div>
+        <ul class="listing font-segoe">
             <li v-for="el in bundle.listing">{{ el }}</li>
         </ul>
         <div class="saving font-josefin">{{ saving }}</div>
@@ -59,7 +59,8 @@ import(`@/assets/bundles/${props.name}.json`)
 
 <style scoped>
 .bundle {
-    padding-left: 1rem;
+    padding-left: 0;
+    background-color: #f5f7ff;
     margin-bottom: 1rem;
     transition: background ease 0.5s;
     border-radius: 1rem;
@@ -70,7 +71,9 @@ import(`@/assets/bundles/${props.name}.json`)
 
 .zoom {
     align-self: center;
-    border-radius: 1rem;
+    height: 100%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     padding: 0;
     margin-left: 0;
     margin-right: 0;
@@ -82,6 +85,8 @@ import(`@/assets/bundles/${props.name}.json`)
 .img {
     transition: transform .5s ease;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .texts {
@@ -98,24 +103,25 @@ import(`@/assets/bundles/${props.name}.json`)
     transition: color ease 0.5s;
     font-size: 2rem;
     font-weight: bold;
+    color: #5463a9;
 }
 
 .desc {
     transition: color ease 0.5s;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    color: slategrey;
     text-align: justify;
 }
 
 .listing {
     transition: color ease 0.5s;
-    color: slategrey;
 }
 
 .price {
     transition: color ease 0.5s;
     font-size: 1.65rem;
+    font-weight: bold;
+    color: #5463a9;
 }
 
 .saving {

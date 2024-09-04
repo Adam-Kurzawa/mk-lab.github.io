@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import BundlesView from '../views/BundlesView.vue'
+import DocsView from '../views/DocsView.vue'
 import PricingView from '../views/PricingView.vue'
 
 const router = createRouter({
@@ -20,6 +21,11 @@ const router = createRouter({
       path: '/:lang/pakiety',
       name: 'pakiety',
       component: BundlesView
+    },
+    {
+      path: '/:lang/:doc',
+      name: 'artykuły',
+      component: DocsView
     }
   ]
 })
