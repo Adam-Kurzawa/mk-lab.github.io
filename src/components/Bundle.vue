@@ -166,8 +166,15 @@ import(`@/assets/bundles/${props.name}.json`)
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        padding-top: 1rem;
+        padding-top: 0;
         padding-left: 0;
+    }
+
+    .zoom {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 0;
+        margin: 0;
     }
 
     .bundle:hover .img {

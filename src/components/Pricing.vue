@@ -17,7 +17,7 @@ const singleEntry = (key, value) => {
             <span style="
                 text-align: end;
                 padding-right: 1rem;
-            ">${value.toFixed(2)} ${t('pricing.currency')}</span>
+            ">${value.toFixed(2)}&nbsp${t('pricing.currency')}</span>
         </div>
     `
 }
