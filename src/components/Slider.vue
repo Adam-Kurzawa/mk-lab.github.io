@@ -46,6 +46,7 @@ const loadDocs = (docs) => {
 }
 
 Promise.all([
+    loadDocs('pakiet_senior'),
     loadDocs('przygotowanie_dziecka'),
     loadDocs('przygotowanie_dorosłego'),
     loadBundle('kleszcze')

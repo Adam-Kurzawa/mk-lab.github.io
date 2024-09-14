@@ -1,0 +1,25 @@
+{
+    "name": "Pakiet Senior",
+    "active": {
+        "allYear": true,
+        "from": null,
+        "to": null
+    },
+    "description": "Ten pakiet uwzględnia badania oceniające ogólną kondycję organizmu, metabolizm tłuszczy i węglowodanów oraz funkcję narządów: serca, wątroby, tarczycy i nerek. Wskazany w diagnostyce m.in. pogorszenia ogólnego stanu zdrowia, nieustępującego zmęczenia, nasilonej senności, przybierania na wadze, obrzęków, zwiększonej zapadalności na infekcje. Zalecany kontrolnie w monitorowaniu leczenia chorób przewlekłych (np. nadciśnienia, cukrzycy, przewlekłej choroby nerek, niewydolności serca) oraz profilaktycznie, przy braku objawów do ogólnej oceny stanu zdrowia.",
+    "waitingTime": null,
+    "listing": [
+        "Morfologia krwi",
+        "Hemoglobina glikowana HbA1c",
+        "Lipidogram (CHOL, HDL, nie-HDL, LDL, TG)",
+        "ALT",
+        "Albumina",
+        "Kreatynina",
+        "TSH",
+        "Glukoza",
+        "Magnez",
+        "Wapń",
+        "Witamina D3"
+    ],
+    "saving": null,
+    "price": 270.00
+}
